@@ -1,0 +1,41 @@
+.about__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 144px;
+}
+
+.about__content-wrapper {
+    text-align: left;
+}
+
+.about__headline {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    color: #061B28;
+    width: 472px;
+    margin: 0px;
+    margin-bottom: 38px;
+}
+
+.about__text-wrapper {
+    width: 350px;
+}
+
+.about__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #061B28;
+    margin: 0px;
+}
+
+
+.about__image-wrapper {
+   display: flex;
+   align-items: center;
+}

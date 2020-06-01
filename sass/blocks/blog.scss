@@ -1,0 +1,144 @@
+.blog {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.blog__wrapper {
+    width: 1170px;
+    margin-bottom: 70px;
+}
+
+.blog__headline {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    color: #061B28;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 70px;
+}
+
+.tabs{
+    display: flex;
+}
+
+.tabs-nav__list {
+    display: block;
+    width: 397px;
+    margin: 0px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+}
+
+.tabs-nav__item {
+    list-style: none;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #061B28;
+}
+
+.tabs-nav__link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    color: #061B28; 
+}
+
+.tabs-nav__item:first-child {
+    background-color: #061B28;
+    width: 402px;
+    height: 128px;
+    padding-top: 15px;
+    padding-left: 30px;
+    margin: 0px;
+}
+
+.tabs-nav__link.is-active {
+    color: #FCFCFC;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.tabs__time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 42px;
+    color: #626F77;
+}
+
+.blog__read-all {
+    display: block;
+    background-color: #EC5118;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    padding-top: 14px;
+} 
+
+.blog__link__all {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FCFCFC;
+    text-decoration: none;
+    
+}
+
+.tabs__image-wrapper {
+    padding-bottom: 28px;
+}
+
+.tabs__content {
+    padding-left: 34px;
+    width: 738px;
+}
+
+.tabs__time--content {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #626F77;
+}
+
+.tabs__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 31px;
+    color: #061B28;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.tabs__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #061B28;
+    margin: 0px;
+}
+
+.tabs__text--part1 {
+    padding-bottom: 17px;
+}

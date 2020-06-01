@@ -1,0 +1,89 @@
+.tour-ru__wrapper {
+    background-image: url("/images/tour-ru.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 757px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+
+.tour-ru__headline {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    color: #FCFCFC;
+    margin: 0px;
+    padding-top: 94px;
+    margin-bottom: 16px;
+}
+
+.tour-ru__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FCFCFC;
+    margin: 0px;
+    margin-bottom: 36px;
+}
+
+.tour-ru__table-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.tour-ru__table {
+    align-items: center;
+    width: 830px;
+    height: 285px;
+    color: #FCFCFC;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 31px;
+    align-items: center;
+    color: #FCFCFC;
+    border-spacing: 0px;
+}
+
+.tour-ru__row:first-child {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    color: #A7AEB4;
+}
+
+.tour-ru__cell {
+    border-bottom: 1px solid #45545E;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tour-ru__link {
+    width: 170px;
+}
+
+.tour-ru__link__all {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #FCFCFC;
+    text-decoration: none;
+    border: 1px solid #FCFCFC;
+    padding: 12px 33px;
+}

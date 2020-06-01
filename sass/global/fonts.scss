@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-style: normal;
+    display: swap;
+    src: url("../fonts/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+  display: swap;
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+  url("../fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Oswald";
+    font-weight: 600;
+    font-style: normal;
+    display: swap;
+    src: url("../fonts/Oswald-SemiBold.woff2") format("woff2"),
+    url("../fonts/Oswald-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-style: normal;
+  display: swap;
+  src: url("../fonts/Oswald-Medium.woff2") format("woff2"),
+  url("../fonts/Oswald-Medium.woff") format("woff");
+}

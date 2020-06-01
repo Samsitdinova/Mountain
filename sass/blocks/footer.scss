@@ -1,0 +1,27 @@
+.footer {
+    background-color: #061B28;
+}
+
+.footer__wrapper {
+    display: flex;
+    height: 121px;
+    justify-content: space-between;
+    align-items: center;
+    color: #FCFCFC;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer__copyright {
+    margin: 0px;
+}
+
+.footer__policy {
+    margin: 0px;
+}

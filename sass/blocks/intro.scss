@@ -1,0 +1,48 @@
+.intro {
+    background-image: url("/images/intro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1366px;
+    height: 650px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 126px;
+}
+
+.intro__headline {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 98px;
+    line-height: 145px;
+    align-items: center;
+    color: #FCFCFC;
+    margin: 0px;
+    position: absolute;
+    top: 228px;
+    left: 41%;
+    right: 41%;
+}
+
+.intro__link {
+    width: 170px;
+    position: absolute;
+    top: 200px;
+    left: 42%;
+    right: 42%;
+}
+
+.intro__link__all {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #FCFCFC;
+    text-decoration: none;
+    border: 1px solid #FCFCFC;
+    padding: 12px 43px;
+}
+
