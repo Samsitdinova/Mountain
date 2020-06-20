@@ -1,13 +1,15 @@
-.tour-ru__wrapper {
+.tour-ru {
     background-image: url("/images/tour-ru.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1366px;
+}
+
+.tour-ru__wrapper {
+    max-width: 1366px;
     height: 757px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 128px;
 }
 
 .tour-ru__headline {
@@ -72,7 +74,10 @@
 }
 
 .tour-ru__link {
+    display: block;
     width: 170px;
+    margin: 0 auto;
+
 }
 
 .tour-ru__link__all {
@@ -85,5 +90,5 @@
     color: #FCFCFC;
     text-decoration: none;
     border: 1px solid #FCFCFC;
-    padding: 12px 33px;
+    padding: 12px;
 }

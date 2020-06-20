@@ -1,104 +1,113 @@
-.contact-us_wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    max-width: 1366px;
-    width: 100%;
-    margin: 0 auto;
-    padding-bottom: 140px;
+.contact-us {
+  background-color:  #061B28;
+  background-image: url("/images/contact-us.jpg");
+  background-position: 100%;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
 }
 
-.contact-us__image {
-    width: 50%;
+.contact-us_wrapper {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .contact-us__content-wrapper {
-    background-color:  #061B28;
-    color: #FCFCFC;
-    text-align: left;
-    width: 50%;
-    padding-top: 70px;
-    padding-left: 98px;
+  width: 50%;
+  padding: 70px 60px 62px 98px;
+  text-align: left;
+  color: #FCFCFC;
 }
 
 .contact-us__headline {
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 52px;
-    line-height: 60px;
-    align-items: center;
-    margin: 0px;
-    padding-bottom: 30px;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 60px;
+  font-family: Oswald;
 }
 
 .contact-us__text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 27px;
-    align-items: center;
-    margin: 0px;
-    padding-bottom: 30px;
+  align-items: center;
+  margin: 0px;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: Roboto;
 }
 
 .contacts-us__field-wrapper {
-    position: relative;
-    margin-bottom: 40px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+input::-webkit-input-placeholder {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto;
+  color: #7E8386;
 }
 
 .form_input{
-    width: 525px;
-    padding: 0 0 35px 0;
-    border: none;
-    border-bottom: 1px solid #45545E;  
-    background-color: transparent;  
-    outline: none;
-    transition: 0.3s;
+  width: 525px;
+  padding: 36px 0 6px 0;  
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #45545E;
+  transition: 0.3s;  
+  outline: none;
 }
 
 .contact-us__form--name{
-    font-size: 0px;
-    overflow: hidden; 
+  font-size: 0px;
+  overflow: hidden; 
 }
 
 .contact-us__form--phone{
-    font-size: 0px;
-    overflow: hidden; 
+  font-size: 0px;
+  overflow: hidden; 
 }
 
 .contact-us__form--e-mail{
-    font-size: 0px;
-    overflow: hidden; 
+  font-size: 0px;
+  overflow: hidden; 
 }
 
 .button.contact-us__button{
-    margin: 0px;
-    margin-bottom: 20px;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 .contact-us__button {
-    display: block;
-    background-color: #EC5118;
-    width: 525px;
-    height: 50px;
-    margin: auto;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FCFCFC;
-    border: 0px;
+  display: block;
+  width: 525px;
+  height: 50px;
+  margin: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Roboto;
+  color: #FCFCFC;
+  background-color: #EC5118;
+  border: 0px;
 }
 
 .contact-us__text--agreement {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    color: #FCFCFC;
-    margin: 0px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto;
+  color: #FCFCFC;
 }

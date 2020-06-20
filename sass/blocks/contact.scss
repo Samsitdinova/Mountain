@@ -1,19 +1,25 @@
 .contact {
-    margin-bottom: 140px;
+    margin-bottom: 138px;
 }
 
 .contact__wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: left;
-    max-width: 1170px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    padding-top: 130px;
+}
+
+.contacts__image-wrapper {
+    padding-left: 98px;
+    margin-right: 72px;
 }
 
 .contacts__content-wrapper {
-    margin-left: 72px;
+    flex-grow: 1;
 }
 
 .contacts__headline {

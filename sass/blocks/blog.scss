@@ -1,12 +1,12 @@
 .blog {
+    padding-top: 128px;
+    max-width:1366px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 128px;
     display: flex;
     justify-content: center;
     text-align: left;
-}
-
-.blog__wrapper {
-    width: 1170px;
-    margin-bottom: 70px;
 }
 
 .blog__headline {
@@ -25,6 +25,10 @@
     display: flex;
 }
 
+.tabs__nav {
+    margin-right: 72px;
+}
+
 .tabs-nav__list {
     display: block;
     width: 397px;
@@ -38,6 +42,7 @@
     padding-top: 15px;
     padding-left: 30px;
     padding-bottom: 22px;
+    padding-right: 30px;
     border-bottom: 1px solid #061B28;
 }
 
@@ -85,7 +90,6 @@
     width: 400px;
     height: 50px;
     text-align: center;
-    margin: auto;
     padding-top: 14px;
 } 
 
@@ -101,12 +105,11 @@
 }
 
 .tabs__image-wrapper {
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 }
 
 .tabs__content {
-    padding-left: 34px;
-    width: 738px;
+    width: 688px;
 }
 
 .tabs__time--content {
@@ -126,7 +129,7 @@
     line-height: 31px;
     color: #061B28;
     margin: 0px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .tabs__text {
@@ -137,8 +140,4 @@
     line-height: 24px;
     color: #061B28;
     margin: 0px;
-}
-
-.tabs__text--part1 {
-    padding-bottom: 17px;
 }

@@ -7,7 +7,14 @@
     height: 650px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 126px;
+}
+
+.intro__wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .intro__headline {
@@ -16,21 +23,15 @@
     font-weight: 600;
     font-size: 98px;
     line-height: 145px;
-    align-items: center;
     color: #FCFCFC;
     margin: 0px;
-    position: absolute;
-    top: 228px;
-    left: 41%;
-    right: 41%;
+    margin-bottom: 26px;
 }
 
 .intro__link {
     width: 170px;
-    position: absolute;
-    top: 200px;
-    left: 42%;
-    right: 42%;
+    display: block;
+
 }
 
 .intro__link__all {

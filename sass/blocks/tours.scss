@@ -1,13 +1,14 @@
 .tours {
-    max-width: 1170px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 134px;
+    padding-top: 122px;
 }
 
 .tours__wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 1170px;
+    margin: 0 auto;  
 }
 
 .tours__headline {
@@ -65,18 +66,17 @@
 
 .tour {
     position: relative;
-    padding-left: 38px;
-    padding-bottom: 34px;
+    padding: 188px 50px 34px 38px;
     background: linear-gradient(180deg, rgba(249, 249, 250, 0) 0%, rgba(249, 249, 250, 0.9) 100%);
-}
 
-.tour::before {
-    content: "";
-    background-image: url("../images/russia-vector.svg");
-    width: 75px;
-    height: 16px;
-    position: absolute;
-    top: -140px;
+    &:before {
+        content: "";
+        background-image: url("../images/russia-vector.svg");
+        width: 75px;
+        height: 16px;
+        position: absolute;
+        top: 34px;
+    }
 }
 
 .tour--tanzania::before {
@@ -85,7 +85,7 @@
     width: 92px;
     height: 16px;
     position: absolute;
-    top: -140px;
+    top: 34px;
 }
 
 .tour__headline {
@@ -106,8 +106,8 @@
     width: 35px;
     height: 35px;
     position: absolute;
-    top: -146px;
-    right: 40px;
+    top: -148px;
+    right: -8px;
 }
 
 .tour__table {
@@ -121,10 +121,15 @@
     margin-bottom: 14px;
 }
 
+.tour__row {
+    margin: 0px;
+}
+
 .tour__cell {
     border-right: 1px solid #061B28;
     padding-right: 10px;
     padding-left: 10px;
+    margin: 0px;
 }
 
 .tour__cell:first-child{
@@ -175,7 +180,6 @@
 .tours__controls {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 134px;
 }
 
 .tours__button {
